@@ -74,9 +74,3 @@ def test_only_ignore_one(donotset):
         else:
             assert value == 0
 
-test_no_min_no_pw()
-test_no_min_some_pw()
-test_simple_good()
-test_simple_bad()
-test_only_set_one()
-test_only_ignore_one()
